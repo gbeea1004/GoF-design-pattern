@@ -7,7 +7,7 @@ import lombok.NoArgsConstructor;
 public class Settings1 {
 
     /**
-     * static inner 클래스 방식
+     * static inner 클래스 방식 (holder idiom : https://en.wikipedia.org/wiki/Initialization-on-demand_holder_idiom)
      *
      * getInstance() 로 호출 될 때 SettingsHolder 의 INSTANCE 가 만들어지므로 효율적이고 멀티 쓰레드에 안전
      */
